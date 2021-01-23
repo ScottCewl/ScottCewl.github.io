@@ -3,11 +3,12 @@
   background-color: #eaa949;
 }
 
+/*background image of services and contact sections*/
 .row-header {
   margin: auto;
   width: 90%;
   background-image: url(OpenRoad.jpg);
-  background-repeat: round;
+  background-repeat:no-repeat: round;
   background-size:cover;
   background-position:center;
   border: 2px solid grey;
@@ -15,6 +16,7 @@
   padding: 20px;
 }
 
+/*round FB icon*/
 img {
   border-radius: 50%;
 }
