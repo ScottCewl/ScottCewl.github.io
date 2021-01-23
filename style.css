@@ -23,7 +23,7 @@ img {
   margin: auto;
   width: 95%;
   color: #5a392d;
-  font-family:cursive;
+  font-family: 'Caveat', cursive;
   text-align: center;
   text-shadow: 2px 2px yellow;
   background-color: lightgrey;
@@ -38,7 +38,7 @@ img {
   margin: auto;
   width: 85%;
   text-align: center;
-  font-family:cursive;
+  font-family: 'Caveat', cursive;
   color: #01310c;
   font-weight: bolder;
   text-shadow: 1px 2px white;
@@ -53,6 +53,7 @@ img {
   margin: auto;
   width: 85%;
   color: #01310c;
+  font-family: 'Caveat', cursive;
   text-align: center;
   text-shadow: 1px 1px white;
   background-color: lightgrey;
@@ -65,6 +66,7 @@ img {
 #legaldisclaim {
   margin: auto;
   width: 75%;
+  font-family: 'Caveat', cursive;
   text-align: center;
   background-color: #e4dd9c;
   background-size: auto;
