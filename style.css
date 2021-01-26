@@ -7,7 +7,7 @@
 .row-header {
   margin: auto;
   width: 90%;
-  background-image: url(OpenRoad.jpg);
+  background-image: url(teton.jpeg);
   background-repeat:no-repeat: round;
   background-size:cover;
   background-position:center;
@@ -32,11 +32,13 @@ img {
   font-family: 'Caveat', cursive;
   text-align: center;
   text-shadow: 2px 2px yellow;
+  background-image: linear-gradient(to bottom right, #8bc34a, #cbe4af);
   background-color: lightgrey;
   background-size: auto;
   border: 2px solid grey;
-  border-radius: 20px;
-  opacity: 0.80;
+  border-radius: 60px;
+  padding: 20px;
+  opacity: 0.60;
 }
 
 #services {
