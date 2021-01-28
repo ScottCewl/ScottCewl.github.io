@@ -71,6 +71,12 @@ img {
   opacity: 0.80;
 }
 
+#contactbuttonbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #legaldisclaim {
   margin: auto;
   width: 75%;
@@ -79,9 +85,15 @@ img {
   opacity: 0.7;
   }
 
-#contactbuttons {
+#logobar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*#contactbuttons {
   margin: auto;
   justify-content: center;
   border: 2px solid yellow;
   border-radius: 10px;
-}
+}*/
