@@ -79,9 +79,12 @@ img {
 
 #legaldisclaim {
   margin: auto;
+  background-color: #e2b97d;
   width: 75%;
   text-align: center;
   background-size: auto;
+  border: 2px solid grey;
+  border-radius: 20px;
   opacity: 0.7;
   }
 
