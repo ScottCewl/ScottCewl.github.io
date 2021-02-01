@@ -63,12 +63,13 @@ img {
   width: 85%;
   color: #01310c;
   text-align: center;
+  word-wrap:break-word;
   background-image: linear-gradient(to bottom right, #4b4d58, #e3e4dd);
   background-color: lightgrey;
   border: 2px solid grey;
   border-radius: 20px;
   padding: 20px;
-  opacity: 0.80;
+  opacity: 0.90;
 }
 
 #contactbuttonbar {
@@ -85,6 +86,7 @@ img {
   background-size: auto;
   border: 2px solid grey;
   border-radius: 20px;
+  padding: 20px;
   opacity: 0.7;
   }
 
