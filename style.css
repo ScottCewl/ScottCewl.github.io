@@ -18,11 +18,21 @@
 
 .accordion-button {
   font-size: 20px !important;
+
 }
 
-/*round FB icon*/
-img {
+/*rounding FB icon*/
+#fbicon {
   border-radius: 50%;
+}
+
+#amex, #mcicon, #vicon, #ppicon, #vmicon {
+  width: 100px;
+}
+
+#accordionicons {
+  max-width: 70px;
+  padding: 10px;
 }
 
 #header {
@@ -46,7 +56,6 @@ img {
   margin: auto;
   width: 85%;
   text-align: center;
-  /*font-family: 'Caveat', bolder;*/
   color: white;
   font-weight: bolder;
   text-shadow: 1px 2px black;
@@ -70,12 +79,14 @@ img {
   border-radius: 20px;
   padding: 20px;
   opacity: 0.90;
+  margin-bottom: 10px;
 }
 
 #contactbuttonbar {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 #legaldisclaim {
@@ -88,6 +99,7 @@ img {
   border-radius: 20px;
   padding: 20px;
   opacity: 0.7;
+  margin-bottom: 10px;
   }
 
 #logobar {
