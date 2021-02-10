@@ -16,10 +16,6 @@
   padding: 20px;
 }
 
-.accordion-button {
-  font-size: 20px !important;
-}
-
 /*rounding FB icon*/
 #fbicon {
   border-radius: 50%;
@@ -31,7 +27,7 @@
 
 #accordionicons {
   margin: left;
-  max-width: 85px;
+  max-width: 60px;
   padding: 10px;
 }
 
