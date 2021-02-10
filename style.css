@@ -33,7 +33,7 @@
 
 #header {
   margin: auto;
-  width: 95%;
+  width: 99%;
   color: black;
   font-family: 'Caveat', cursive;
   text-align: center;
@@ -65,10 +65,9 @@
 
 #contact {
   margin: auto;
-  width: 85%;
+  width: 90%;
   color: #01310c;
   text-align: center;
-  word-wrap:break-word;
   background-image: linear-gradient(to bottom right, #4b4d58, #e3e4dd);
   background-color: lightgrey;
   border: 2px solid grey;
