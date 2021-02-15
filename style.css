@@ -20,6 +20,17 @@
 #fbicon {
   border-radius: 50%;
 }
+
+button {
+  background-color: inherit;
+  opacity: 0.8;
+}
+
+button:hover {
+background-color: #b4f3bd;
+opacity: 1;
+}
+
 /*payment option icons*/
 #amex, #mcicon, #vicon, #ppicon, #vmicon {
   width: 90px;
@@ -32,6 +43,7 @@
 }
 
 #header {
+  position: relative;
   margin: auto;
   width: 99%;
   color: black;
@@ -45,10 +57,18 @@
   border-radius: 60px;
   padding: 20px;
   opacity: 0.80;
+  animation-name: header;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes header {
+  0%   {top: -1000px}
+  100% {top: 0px}
 }
 
 #services {
-
+  position: relative;
   margin: auto;
   width: 85%;
   text-align: center;
@@ -61,9 +81,18 @@
   border-radius: 20px;
   padding: 20px;
   opacity: 0.80;
+  animation-name: services;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes services {
+  0%   {left: -1300px}
+  100% {left: 0px}
 }
 
 #contact {
+  position: relative;
   margin: auto;
   width: 90%;
   color: #01310c;
@@ -75,6 +104,14 @@
   padding: 10px;
   opacity: 0.90;
   margin-bottom: 10px;
+  animation-name: contact;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contact {
+  0% {right: -1000px}
+  100% {right: 0px}
 }
 
 #contactbuttonbar {
@@ -82,6 +119,10 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+a:hover {
+  background-color: #b4f3bd;
 }
 
 #legaldisclaim {
