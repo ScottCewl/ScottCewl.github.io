@@ -35,10 +35,9 @@ opacity: 1;
 #axicon, #mcicon, #vsicon, #ppicon, #dcicon, #apicon {
   width: 5rem;
   height: 5rem;
-  order: 3px solid white;
 }
 #vmicon, #goicon {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 5px;
   width: 4.7rem;
   height: 2.8rem;
