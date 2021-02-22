@@ -31,13 +31,17 @@ background-color: #b4f3bd;
 opacity: 1;
 }
 
+#accordion-body-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*payment option icons*/
 #axicon, #mcicon, #vsicon, #ppicon, #dcicon, #apicon {
   width: 5rem;
   height: 5rem;
 }
 #vmicon, #goicon {
-  margin-top: 10px;
   margin-left: 5px;
   width: 4.7rem;
   height: 2.8rem;
