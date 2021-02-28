@@ -31,20 +31,13 @@ background-color: #b4f3bd;
 opacity: 1;
 }
 
-/*#accordion-body-flex {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10rem;
-}*/
-
 /*payment option icons*/
-#axicon, #mcicon, #vsicon, #ppicon, #dcicon, #apicon /*#vmicon, #goicon*/ {
+#axicon, #mcicon, #vsicon, #ppicon, #dcicon, #apicon {
   width: 5rem;
   height: 5rem;
 }
 #vmicon, #goicon {
   margin-left: 5px;
-  margin-top: 5px;
   width: 4.7rem;
   height: 2.8rem;
   border: 3px solid grey;
@@ -54,7 +47,7 @@ opacity: 1;
 #accordionicons {
   margin: left;
   max-width: 60px;
-  padding: 5px;
+  padding: 7px;
 }
 
 #header {
@@ -158,10 +151,3 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-
-/*#contactbuttons {
-  margin: auto;
-  justify-content: center;
-  border: 2px solid yellow;
-  border-radius: 10px;
-}*/
