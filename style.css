@@ -3,6 +3,13 @@
   background-color: #e2b97d;
 }
 
+.body {
+  min-height: 100%vh;
+}
+
+h3 {
+  text-align: center;
+}
 /*background image of services and contact sections*/
 .row-header {
   margin: auto;
