@@ -8,6 +8,7 @@
 }
 
 h3 {
+  color: rgb(91, 170, 54);
   text-align: center;
   text-shadow: 1px 1px yellow;
 }
@@ -15,7 +16,7 @@ h3 {
 .row-header {
   margin: auto;
   width: 90%;
-  background-image: url(assets/SnowFlakeRoad.jpg);
+  background-image: url(assets/SnowFlakeRoad_compressed.jpg);
   background-repeat: no-repeat: round;
   background-size: cover;
   background-position: center;
