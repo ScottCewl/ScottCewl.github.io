@@ -8,9 +8,9 @@
   width: 90%;
   font-family: 'Caveat', cursive;
   text-align: center;
-  text-shadow: 1px 1px #fcfcbd;
+  text-shadow: 1px 1px #8b813f;
   background-image: linear-gradient(to top right, #4b4d58, #e3e4dd);
-  border: 2px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 60px;
   padding: 20px;
   opacity: 0.95;
@@ -32,7 +32,7 @@ h3 {
   background-repeat: no-repeat: round;
   background-size: cover;
   background-position: center;
-  border: 2px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 20px;
   padding: 20px;
 }
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #ebe9c9;
+  background-color: #ffffff;
 }
 
 /*payment option icons*/
@@ -59,7 +59,7 @@ button:hover {
   margin-left: 5px;
   width: 4.7rem;
   height: 2.8rem;
-  border: 3px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 7px;
 }
 
@@ -79,11 +79,10 @@ button:hover {
   margin: auto;
   width: 80%;
   text-align: center;
-  color: white;
-  font-weight: bolder;
-  text-shadow: 1px 1px #fcfcbd;
+  color: #081302;
+  text-shadow: 1px 1px #8b813f;
   background-image: linear-gradient(to bottom left, #4b4d58, #e3e4dd);
-  border: 2px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 20px;
   padding: 20px;
   opacity: 0.90;
@@ -101,11 +100,11 @@ button:hover {
   position: relative;
   margin: auto;
   width: 80%;
-  color: #01310c;
+  color: #081302;
   text-align: center;
-  text-shadow: 1px 1px #fcfcbd;
+  text-shadow: 1px 1px #ccb837;
   background-image: linear-gradient(to top right, #4b4d58, #e3e4dd);
-  border: 2px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 20px;
   padding: 10px;
   opacity: 0.90;
@@ -136,9 +135,9 @@ a:hover {
   background-image: linear-gradient(to bottom left, #4b4d58, #e3e4dd);
   width: 70%;
   text-align: center;
-  text-shadow: 1px 1px #fcfcbd;
+  text-shadow: 1px 1px #8b813f;
   background-size: auto;
-  border: 2px solid lightgrey;
+  border: 1px solid #fffcfc;
   border-radius: 20px;
   padding: 20px;
   opacity: 0.9;
@@ -149,4 +148,18 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 1600px) {
+  #header {
+    width: 70%;
+  }
+  #services {
+    width: 60%;
+  }
+  #contact {
+    width: 60%;
+  }
+  #legaldisclaim {
+    width: 50%;
+  }
 }
