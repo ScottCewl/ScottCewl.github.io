@@ -15,7 +15,7 @@
   padding: 20px;
   opacity: 0.95;
   animation-name: header;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -87,7 +87,7 @@ button:hover {
   padding: 20px;
   opacity: 0.90;
   animation-name: services;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -110,7 +110,7 @@ button:hover {
   opacity: 0.90;
   margin-bottom: 10px;
   animation-name: contact;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
